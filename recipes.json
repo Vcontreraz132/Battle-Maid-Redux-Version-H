@@ -1,28 +1,30 @@
 [
 {
- "type" : "recipe",
- "result": "maid_dress",
- "category": "CC_ARMOR",
- "subcategory": "CSC_ARMOR_SUIT",
- "skill_used": "tailor",
- "difficulty": 4,
- "time": "200 m",
- "reversible": false,
- "autolearn": true,
- "tools": [
-   [
-     [ "sewing_kit", 60 ]
-   ]
- ],
- "components": [
-   [
-     [ "rag", 40 ]
-   ]
- ]
+"type" : "recipe",
+"result": "maid_dress",
+"activity_level": "LIGHT_EXERCISE",
+"category": "CC_ARMOR",
+"subcategory": "CSC_ARMOR_SUIT",
+"skill_used": "tailor",
+"difficulty": 4,
+"time": "200 m",
+"reversible": false,
+"autolearn": true,
+"tools": [
+  [
+    [ "sewing_kit", 60 ]
+  ]
+],
+"components": [
+  [
+    [ "rag", 40 ]
+  ]
+]
 },
 {
  "type" : "recipe",
  "result": "maid_dress_french",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_SUIT",
  "skill_used": "tailor",
@@ -44,6 +46,7 @@
 {
   "type" : "recipe",
   "result": "survivor_maid_dress",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_SUIT",
   "skill_used": "tailor",
@@ -88,15 +91,16 @@
      ],
      [
       [ "kevlar", 1 ],
-      [ "modularvest", 1 ],
-      [ "swat_armor", 1 ],
-      [ "kevlar_plate", 16 ]
+      [ "tacvest", 1 ],
+      [ "ballistic_vest_esapi", 1 ],
+      [ "sheet_kevlar", 16 ]
      ]
   ]
 },
 {
        "type" : "recipe",
  "result": "jokyu_fuku",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_SUIT",
  "skill_used": "tailor",
@@ -118,6 +122,7 @@
 {
        "type" : "recipe",
  "result": "maid_hat",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_HEAD",
  "skill_used": "tailor",
@@ -139,6 +144,7 @@
 {
   "type" : "recipe",
   "result": "stockings_lace",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_FEET",
   "skill_used": "tailor",
@@ -160,6 +166,7 @@
 {
   "type" : "recipe",
   "result": "petticoat",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_FEET",
   "skill_used": "tailor",
@@ -181,6 +188,7 @@
 {
        "type" : "recipe",
  "result": "tux",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_SUIT",
  "skill_used": "tailor",
@@ -202,6 +210,7 @@
   {
   "type" : "recipe",
   "result": "survivor_tux",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_SUIT",
   "skill_used": "tailor",
@@ -246,15 +255,16 @@
      ],
      [
       [ "kevlar", 1 ],
-      [ "modularvest", 1 ],
-      [ "swat_armor", 1 ],
-      [ "kevlar_plate", 16 ]
+      [ "tacvest", 1 ],
+      [ "ballistic_vest_esapi", 1 ],
+      [ "sheet_kevlar", 16 ]
      ]
   ]
 },
 {
   "type" : "recipe",
   "result": "makeshift_throwing_knife",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_RANGED",
   "skill_used": "fabrication",
@@ -285,6 +295,7 @@
 {
   "type" : "recipe",
   "result": "assassins_throwing_dagger",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_RANGED",
   "skill_used": "fabrication",
@@ -326,6 +337,7 @@
 {
   "type" : "recipe",
   "result": "destruction_otama",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_RANGED",
   "skill_used": "fabrication",
@@ -371,6 +383,7 @@
 {
   "type" : "recipe",
   "result": "vorpal_kitchen_knife",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_CUTTING",
   "skill_used": "fabrication",
@@ -420,6 +433,7 @@
 {
   "type" : "recipe",
   "result": "slaying_pan",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_BASHING",
   "skill_used": "fabrication",
@@ -472,6 +486,7 @@
 {
   "type" : "recipe",
   "result": "brutal_broom",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_PIERCING",
   "skill_used": "fabrication",
@@ -520,6 +535,7 @@
 {
   "type" : "recipe",
   "result": "spiked_whip",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_BASHING",
   "skill_used": "fabrication",
@@ -570,6 +586,7 @@
 {
   "type" : "recipe",
   "result": "shikomi_kasa",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_CUTTING",
   "skill_used": "fabrication",
@@ -616,6 +633,7 @@
 {
   "type" : "recipe",
   "result": "shikomi_stick",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_CUTTING",
   "skill_used": "fabrication",
@@ -669,6 +687,7 @@
 {
   "type" : "recipe",
   "result": "leather_cat_tail_biv",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_OTHER",
   "skill_used": "tailor",
@@ -691,6 +710,7 @@
 {
   "type" : "recipe",
   "result": "fur_cat_tail_biv",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_OTHER",
   "skill_used": "tailor",
@@ -713,6 +733,7 @@
 {
   "type" : "recipe",
   "result": "blob_cat_tail",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_OTHER",
   "skill_used": "cooking",
@@ -735,6 +756,7 @@
 {
   "type" : "recipe",
   "result": "blob_gohan",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_AMMO",
   "subcategory": "CSC_AMMO_OTHER",
   "skill_used": "cooking",
@@ -755,6 +777,7 @@
 {
   "type" : "recipe",
   "result": "flask_shoggoth",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "cooking",
@@ -789,6 +812,7 @@
 {
        "type" : "recipe",
  "result": "man_carrier",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_OTHER",
  "skill_used": "tailor",
@@ -816,6 +840,7 @@
 {
        "type" : "recipe",
  "result": "maid_cap",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_HEAD",
  "skill_used": "tailor",
@@ -837,6 +862,7 @@
 {
        "type" : "recipe",
  "result": "cat_maid_cap",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_HEAD",
  "skill_used": "tailor",
@@ -858,6 +884,7 @@
 {
        "type" : "recipe",
  "result": "master_doll",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_OTHER",
  "subcategory": "CSC_OTHER_TOOLS",
  "skill_used": "fabrication",
@@ -880,6 +907,7 @@
 {
  "type" : "recipe",
  "result": "maid_bell",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_OTHER",
  "subcategory": "CSC_OTHER_TOOLS",
  "skill_used": "fabrication",
@@ -906,6 +934,7 @@
 {
        "type" : "recipe",
  "result": "master_doll_vibe_off",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_OTHER",
  "subcategory": "CSC_OTHER_TOOLS",
  "skill_used": "fabrication",
@@ -932,6 +961,7 @@
  "type" : "recipe",
  "result": "maid_point",
  "byproducts": [["maid_bell"]],
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_AMMO",
  "subcategory": "CSC_AMMO_OTHER",
  "skill_used": "fabrication",
@@ -955,6 +985,7 @@
 {
   "type" : "recipe",
   "result": "maid_cloak_off",
+  "activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_SUIT",
   "skill_used": "tailor",
@@ -980,6 +1011,7 @@
 {
   "type" : "recipe",
   "result": "maid_claw",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_WEAPON",
   "subcategory": "CSC_WEAPON_PIERCING",
   "skill_used": "fabrication",
@@ -1029,6 +1061,7 @@
 {
        "type" : "recipe",
  "result": "maidguy_mask_off",
+"activity_level": "LIGHT_EXERCISE",
  "category": "CC_ARMOR",
  "subcategory": "CSC_ARMOR_HEAD",
  "skill_used": "tailor",
@@ -1071,6 +1104,7 @@
 {
   "type" : "recipe",
   "result": "summon_little_maid",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "fabrication",
@@ -1103,6 +1137,7 @@
 {
   "type" : "recipe",
   "result": "recall_ration",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "fabrication",
@@ -1134,8 +1169,9 @@
   "result": "meat",
   "id_suffix": "from_recall_ration",
   "byproducts": [["water_clean"]],
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_FOOD",
-  "subcategory": "CSC_OTHER_TOOLS",
+  "subcategory": "CSC_FOOD_OTHER",
   "skill_used": "fabrication",
   "difficulty": 0,
   "time": "3 m",
@@ -1155,6 +1191,7 @@
 {
   "type" : "recipe",
   "result": "maid_mess_kit",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "fabrication",
@@ -1179,6 +1216,7 @@
 {
   "type" : "recipe",
   "result": "little_maid_R18",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "fabrication",
@@ -1211,6 +1249,7 @@
 {
   "type" : "recipe",
   "result": "little_maid_meat_smoked",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_FOOD",
   "subcategory": "CSC_FOOD_MEAT",
   "skill_used": "fabrication",
@@ -1238,6 +1277,7 @@
 {
   "type" : "recipe",
   "result": "little_maid_fish_smoked",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_FOOD",
   "subcategory": "CSC_FOOD_MEAT",
   "skill_used": "fabrication",
@@ -1265,6 +1305,7 @@
 {
   "type" : "recipe",
   "result": "little_maid_human_smoked",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_FOOD",
   "subcategory": "CSC_FOOD_MEAT",
   "skill_used": "fabrication",
@@ -1293,6 +1334,7 @@
 {
   "type" : "recipe",
   "result": "summon_alchemic_golem",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "cooking",
@@ -1323,6 +1365,7 @@
 {
   "type" : "recipe",
   "result": "battle_mop",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_OTHER",
   "subcategory": "CSC_OTHER_TOOLS",
   "skill_used": "fabrication",
@@ -1355,6 +1398,7 @@
 {
   "type" : "recipe",
   "result": "panties_kemo",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_LEGS",
   "skill_used": "tailor",
@@ -1375,6 +1419,7 @@
 },{
   "type" : "recipe",
   "result": "briefs_kemo",
+"activity_level": "LIGHT_EXERCISE",
   "category": "CC_ARMOR",
   "subcategory": "CSC_ARMOR_LEGS",
   "skill_used": "tailor",
