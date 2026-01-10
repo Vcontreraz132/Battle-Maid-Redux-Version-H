@@ -15,7 +15,7 @@
                 "unarmed_allowed" : true,
                 "melee_allowed" : true,
                 "flat_bonuses" : [
-                    { "stat": "dodge", "scale": 2.0}
+                    { "stat": "dodge", "scale": 2.0 }
                 ]
             }
         ],
@@ -26,14 +26,14 @@
                 "description" : "You receive a penalty to dodging when moving, but your chances of hitting and damage dealt are increased in accordance with your perception.",
                 "unarmed_allowed" : true,
                 "melee_allowed" : true,
-                "min_unarmed" : 0,
+                "skill_requirements": [ { "name": "unarmed", "level": 0 } ],
                 "buff_duration" : 2,
                 "flat_bonuses" : [
-                    { "stat": "hit", "scaling-stat": "per", "scale": 1},
-                    { "stat": "damage", "type": "bash", "scaling-stat": "per", "scale": 0.2},
-                    { "stat": "damage", "type": "cut", "scaling-stat": "per", "scale": 0.2},
-                    { "stat": "damage", "type": "stab", "scaling-stat": "per", "scale": 0.2},
-                    { "stat": "dodge", "scale": -4.0}
+                    { "stat": "hit", "scale": 1.0 },
+                    { "stat": "damage", "type": "bash", "scale": 0.2 },
+                    { "stat": "damage", "type": "cut", "scale": 0.2 },
+                    { "stat": "damage", "type": "stab", "scale": 0.2 },
+                    { "stat": "dodge", "scale": -4.0 }
                 ]
             }
             ],
@@ -44,7 +44,7 @@
                 "description" : "Avoided attacks with minimal movement. You have a chance of landing a counterattack.",
                 "unarmed_allowed" : true,
                 "melee_allowed" : true,
-                "min_unarmed" : 0,
+                "skill_requirements": [ { "name": "unarmed", "level": 0 } ],
                 "buff_duration" : 2,
                 "max_stacks" : 1,
                 "mult_bonuses" : [
